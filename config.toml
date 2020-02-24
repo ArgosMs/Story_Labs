@@ -1,10 +1,12 @@
 languageCode = "en-us"
-title = "Massively"
-baseURL = "http://localhost:1313/"
+title = "Story Labs"
+baseURL = "/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # [params]
   # set below parameter to define a favicon
